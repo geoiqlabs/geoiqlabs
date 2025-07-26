@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeoIQ Labs - Geospatial Intelligence for a Smarter Planet</title>
+    <meta name="description" content="GeoIQ Labs provides cutting-edge geospatial intelligence solutions using Remote Sensing, GIS, and AI/ML for Agriculture, Biodiversity, Defence, BFSI, and FMCG sectors.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lucide/0.263.1/lucide.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-content">
+                <div class="nav-logo">
+                    <svg class="logo-icon" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="50" cy="50" r="45" fill="#3b82f6" stroke="#1e40af" stroke-width="2"/>
+                        <path d="M30 70 L50 30 L70 70 Z" fill="white" opacity="0.9"/>
+                        <circle cx="50" cy="45" r="8" fill="#10b981"/>
+                        <path d="M35 55 Q50 40 65 55" stroke="white" stroke-width="2" fill="none"/>
+                    </svg>
+                    <h1 class="logo-text">GeoIQ Labs</h1>
+                </div>
+                
+                <div class="nav-menu" id="navMenu">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#technologies" class="nav-link">Technologies</a>
+                    <a href="#industries" class="nav-link">Industries</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </div>
+                
+                <button class="nav-toggle" id="navToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="hero-brand">GeoIQ</span> Labs
+                    </h1>
+                    <p class="hero-tagline">
+                        Geospatial Intelligence for a Smarter Planet
+                    </p>
+                    <p class="hero-description">
+                        Harnessing the power of Remote Sensing, GIS, and AI/ML to solve real-time challenges across Agriculture, Biodiversity, Defence, BFSI, and FMCG sectors.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#technologies" class="btn btn-primary">Explore Technologies</a>
+                        <a href="#contact" class="btn btn-secondary">Get Started</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="https://images.unsplash.com/photo-1614728263952-84ea256f9679?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" alt="Satellite earth observation technology" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technologies Section -->
+    <section id="technologies" class="technologies">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Core Technologies</h2>
+                <p class="section-description">
+                    Cutting-edge geospatial intelligence powered by advanced remote sensing, comprehensive GIS solutions, and sophisticated AI/ML algorithms.
+                </p>
+            </div>
+
+            <div class="tech-grid">
+                <div class="tech-card">
+                    <img src="https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400" alt="Remote Sensing Technology" class="tech-image" />
+                    <div class="tech-content">
+                        <div class="tech-header">
+                            <i data-lucide="satellite" class="tech-icon"></i>
+                            <h3 class="tech-title">Remote Sensing</h3>
+                        </div>
+                        <p class="tech-description">
+                            Advanced satellite and aerial imagery analysis for comprehensive earth observation, environmental monitoring, and precision agriculture applications.
+                        </p>
+                        <ul class="tech-features">
+                            <li><i data-lucide="check" class="feature-icon"></i>Multi-spectral image processing</li>
+                            <li><i data-lucide="check" class="feature-icon"></i>Change detection algorithms</li>
+                            <li><i data-lucide="check" class="feature-icon"></i>Real-time monitoring systems</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="tech-card">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400" alt="GIS Solutions" class="tech-image" />
+                    <div class="tech-content">
+                        <div class="tech-header">
+                            <i data-lucide="map" class="tech-icon"></i>
+                            <h3 class="tech-title">GIS Solutions</h3>
+                        </div>
+                        <p class="tech-description">
+                            Comprehensive geographic information systems for spatial data analysis, mapping, and location intelligence across diverse industry applications.
+                        </p>
+                        <ul class="tech-features">
+                            <li><i data-lucide="check" class="feature-icon"></i>Spatial data modeling</li>
+                            <li><i data-lucide="check" class="feature-icon"></i>Interactive mapping platforms</li>
+                            <li><i data-lucide="check" class="feature-icon"></i>Location-based analytics</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="tech-card">
+                    <img src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400" alt="AI/ML Technology" class="tech-image" />
+                    <div class="tech-content">
+                        <div class="tech-header">
+                            <i data-lucide="brain" class="tech-icon"></i>
+                            <h3 class="tech-title">AI/ML</h3>
+                        </div>
+                        <p class="tech-description">
+                            State-of-the-art artificial intelligence and machine learning algorithms for predictive analytics, pattern recognition, and automated decision-making.
+                        </p>
+                        <ul class="tech-features">
+                            <li><i data-lucide="check" class="feature-icon"></i>Deep learning models</li>
+                            <li><i data-lucide="check" class="feature-icon"></i>Predictive analytics</li>
+                            <li><i data-lucide="check" class="feature-icon"></i>Computer vision systems</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Industries Section -->
+    <section id="industries" class="industries">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Industry Applications</h2>
+                <p class="section-description">
+                    Transforming industries through innovative geospatial intelligence solutions tailored for specific sector challenges and opportunities.
+                </p>
+            </div>
+
+            <div class="industry-grid">
+                <div class="industry-card">
+                    <img src="https://images.unsplash.com/photo-1500937386664-56d1dfef3854?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300" alt="Agriculture" class="industry-image" />
+                    <div class="industry-content">
+                        <div class="industry-header">
+                            <i data-lucide="sprout" class="industry-icon green"></i>
+                            <h3 class="industry-title">Agriculture</h3>
+                        </div>
+                        <p class="industry-description">
+                            Precision farming, crop monitoring, yield prediction, and sustainable agriculture practices through advanced geospatial analysis.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="industry-card">
+                    <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300" alt="Biodiversity" class="industry-image" />
+                    <div class="industry-content">
+                        <div class="industry-header">
+                            <i data-lucide="leaf" class="industry-icon green"></i>
+                            <h3 class="industry-title">Biodiversity</h3>
+                        </div>
+                        <p class="industry-description">
+                            Ecosystem monitoring, wildlife conservation, habitat mapping, and environmental impact assessment for biodiversity preservation.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="industry-card">
+                    <img src="https://images.unsplash.com/photo-1541336032412-2048a678540d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300" alt="Defence" class="industry-image" />
+                    <div class="industry-content">
+                        <div class="industry-header">
+                            <i data-lucide="shield" class="industry-icon blue"></i>
+                            <h3 class="industry-title">Defence</h3>
+                        </div>
+                        <p class="industry-description">
+                            Strategic intelligence, surveillance systems, threat assessment, and tactical planning through advanced geospatial technologies.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="industry-card">
+                    <img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300" alt="BFSI" class="industry-image" />
+                    <div class="industry-content">
+                        <div class="industry-header">
+                            <i data-lucide="building" class="industry-icon blue"></i>
+                            <h3 class="industry-title">BFSI</h3>
+                        </div>
+                        <p class="industry-description">
+                            Risk assessment, fraud detection, location intelligence, and market analytics for banking, financial services, and insurance sectors.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="industry-card">
+                    <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300" alt="FMCG" class="industry-image" />
+                    <div class="industry-content">
+                        <div class="industry-header">
+                            <i data-lucide="shopping-cart" class="industry-icon green"></i>
+                            <h3 class="industry-title">FMCG</h3>
+                        </div>
+                        <p class="industry-description">
+                            Supply chain optimization, market penetration analysis, distribution network planning, and consumer behavior insights.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="industry-card">
+                    <img src="https://images.unsplash.com/photo-1561484930-998b6a7b22e8?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=300" alt="Climate & Disaster" class="industry-image" />
+                    <div class="industry-content">
+                        <div class="industry-header">
+                            <i data-lucide="cloud-rain" class="industry-icon blue"></i>
+                            <h3 class="industry-title">Climate & Disaster</h3>
+                        </div>
+                        <p class="industry-description">
+                            Weather monitoring, disaster prediction, climate change analysis, and emergency response planning for resilient communities.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Capabilities Section -->
+    <section class="capabilities">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title white">Technology Capabilities</h2>
+                <p class="section-description light">
+                    Advanced technical infrastructure and expertise delivering scalable, reliable, and innovative geospatial intelligence solutions.
+                </p>
+            </div>
+
+            <div class="capabilities-grid">
+                <div class="capability-item">
+                    <div class="capability-icon blue-bg">
+                        <i data-lucide="database"></i>
+                    </div>
+                    <h3 class="capability-title">Big Data Processing</h3>
+                    <p class="capability-description">Scalable data processing pipelines for massive geospatial datasets</p>
+                </div>
+
+                <div class="capability-item">
+                    <div class="capability-icon green-bg">
+                        <i data-lucide="cloud"></i>
+                    </div>
+                    <h3 class="capability-title">Cloud Infrastructure</h3>
+                    <p class="capability-description">Enterprise-grade cloud solutions for global accessibility</p>
+                </div>
+
+                <div class="capability-item">
+                    <div class="capability-icon blue-bg">
+                        <i data-lucide="smartphone"></i>
+                    </div>
+                    <h3 class="capability-title">Mobile Solutions</h3>
+                    <p class="capability-description">Field-ready mobile applications for real-time data collection</p>
+                </div>
+
+                <div class="capability-item">
+                    <div class="capability-icon green-bg">
+                        <i data-lucide="lock"></i>
+                    </div>
+                    <h3 class="capability-title">Security & Compliance</h3>
+                    <p class="capability-description">Enterprise security standards and regulatory compliance</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">About GeoIQ Labs</h2>
+                    <p class="about-intro">
+                        Leading innovators in geospatial intelligence, combining cutting-edge technology with deep domain expertise to solve complex real-world challenges.
+                    </p>
+                    <p class="about-description">
+                        Our multidisciplinary team of geospatial scientists, data engineers, and AI researchers work collaboratively to deliver actionable insights that drive informed decision-making across diverse industries.
+                    </p>
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <h4 class="detail-title">Headquarters</h4>
+                            <p class="detail-text">Bangalore, India</p>
+                        </div>
+                        <div class="detail-item">
+                            <h4 class="detail-title">Founded</h4>
+                            <p class="detail-text">Innovation-driven since inception</p>
+                        </div>
+                    </div>
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <i data-lucide="check-circle" class="feature-check"></i>
+                            <span>ISO-certified quality management</span>
+                        </div>
+                        <div class="feature-item">
+                            <i data-lucide="check-circle" class="feature-check"></i>
+                            <span>24/7 technical support</span>
+                        </div>
+                        <div class="feature-item">
+                            <i data-lucide="check-circle" class="feature-check"></i>
+                            <span>Global deployment capabilities</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&auto=format&fit=crop&w=700&h=500" alt="Professional technology office environment" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-description">
+                    Ready to transform your organization with geospatial intelligence? Let's discuss how we can help solve your unique challenges.
+                </p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3 class="contact-title">Contact Information</h3>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon blue-bg">
+                            <i data-lucide="mail"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email Us</h4>
+                            <p>geoiqlabs@gmail.com</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon green-bg">
+                            <i data-lucide="map-pin"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>Bangalore, India</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon blue-bg">
+                            <i data-lucide="clock"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Business Hours</h4>
+                            <p>Monday - Friday: 9:00 AM - 6:00 PM IST</p>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <h4>Follow Us</h4>
+                        <div class="social-icons">
+                            <a href="#" class="social-icon"><i data-lucide="linkedin"></i></a>
+                            <a href="#" class="social-icon"><i data-lucide="twitter"></i></a>
+                            <a href="#" class="social-icon"><i data-lucide="github"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+                    <h3 class="contact-title">Send us a Message</h3>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="company">Company</label>
+                            <input type="text" id="company" name="company">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="industry">Industry</label>
+                            <select id="industry" name="industry">
+                                <option value="">Select your industry</option>
+                                <option value="agriculture">Agriculture</option>
+                                <option value="biodiversity">Biodiversity</option>
+                                <option value="defence">Defence</option>
+                                <option value="bfsi">BFSI</option>
+                                <option value="fmcg">FMCG</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Tell us about your project requirements" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary full-width">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <h3 class="footer-title">GeoIQ Labs</h3>
+                <p class="footer-tagline">Geospatial Intelligence for a Smarter Planet</p>
+                <p class="footer-copyright">© 2024 GeoIQ Labs. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
